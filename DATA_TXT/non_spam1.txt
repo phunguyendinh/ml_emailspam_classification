@@ -1,0 +1,58 @@
+HAM
+Subject: Verify Your Email Address
+
+Dear [User's Name],
+
+Thank you for signing up for [Your Service Name]. To complete your registration, please verify your email address by clicking the link below:
+
+https://www.yourwebsite.com/verify-email
+
+If you did not sign up for this account, please disregard this email.
+
+Thank you for joining us!
+
+Best regards,
+[Your Service Name] Support Team
+
+HAM
+Subject: Urgent! Your payment is pending
+
+Hello,
+
+Your recent payment could not be processed. Please confirm your billing 
+details by clicking the link below to avoid service interruptions.
+
+[Confirm Payment]
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+The Billing Department
+
+SPAM
+Subject: Account Verification Needed
+
+Dear User,
+
+Your account has been flagged for suspicious activity. To avoid being locked out, please verify your credentials immediately at the following link:
+
+[https://secure-verify-account.com](https://secure-verify-account.com)
+
+Take action now to ensure continued access.
+
+Best regards,
+Customer Support Team
+
+SPAM
+Subject: Your Package Delivery is Pending
+
+Hello,
+
+We are unable to deliver your package due to incomplete address information. Please update your shipping details by visiting the link below:
+
+[https://update-shipping-details.com](https://update-shipping-details.com)
+
+Failure to update within 3 days will result in package cancellation.
+
+Thank you,
+Shipping Support Team

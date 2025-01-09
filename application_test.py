@@ -40,8 +40,8 @@ def prepare_features(email_content, words_file='words.txt'):
 if option == "Gmail Fetch & Check":
     # Sidebar for Gmail login
     st.sidebar.title("Gmail Login")
-    username = st.sidebar.text_input("Gmail Username", placeholder="your_email@gmail.com")
-    password = st.sidebar.text_input("Gmail Password", type="password")
+    username = st.sidebar.text_input("Gmail Username", placeholder="your_email@gmail.com", value='nguyendinhphukhmt@gmail.com')
+    password = st.sidebar.text_input("Gmail Password", type="password", value='fmol wqbi bigc mfub')
 
     # Fetch emails using IMAP
     def get_emails(username, password, n=5):
@@ -83,7 +83,7 @@ if option == "Gmail Fetch & Check":
     if st.sidebar.button("Fetch Emails"):
         if username and password:
             st.info("Fetching emails...")
-            fetched_emails = get_emails(username, password, n=10)  # Fetch 10 emails
+            fetched_emails = get_emails(username, password, n=50)  # Fetch 10 emails
             if fetched_emails:
                 st.success("Fetched emails successfully!")
             else:
