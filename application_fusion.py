@@ -86,8 +86,8 @@ option = st.sidebar.radio("Select an option:", ["Gmail Fetch & Check", "Manual I
 # Gmail Fetch & Check functionality
 if option == "Gmail Fetch & Check":
     st.sidebar.title("Gmail Login")
-    username = st.sidebar.text_input("Gmail Username", placeholder="your_email@gmail.com", value='nguyendinhphukhmt@gmail.com') 
-    password = st.sidebar.text_input("Gmail Password", type="password", value='fmol wqbi bigc mfub')  
+    username = st.sidebar.text_input("Gmail Username", placeholder="your_email@gmail.com", value='') 
+    password = st.sidebar.text_input("Gmail Password", type="password", value='')  
     fetched_emails = []
     
     if st.sidebar.button("Fetch Emails"):
