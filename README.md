@@ -1,14 +1,15 @@
-# 📧 Email Spam Detection System
+# Email Spam Detection System
 
 A comprehensive machine learning project for detecting spam emails using multiple classification algorithms with both English and Vietnamese language support.
 
 ![alt text](images/image.png)
 ![alt text](images/image2.png)
-## 🎯 Project Overview
+
+## Project Overview
 
 This project implements an intelligent email spam detection system that can classify emails as spam or ham (legitimate) using various machine learning algorithms. The system supports both English and Vietnamese languages through automatic translation capabilities.
 
-## ✨ Features
+## Features
 
 - **Multi-language Support**: Automatic translation from English to Vietnamese
 - **Multiple ML Algorithms**: 
@@ -22,7 +23,7 @@ This project implements an intelligent email spam detection system that can clas
 - **Model Comparison**: Performance metrics and visualization
 - **Real-time Prediction**: Live email classification
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **Machine Learning**: scikit-learn
@@ -32,7 +33,7 @@ This project implements an intelligent email spam detection system that can clas
 - **Translation**: googletrans
 - **Text Processing**: TF-IDF Vectorization
 
-## 📋 Requirements
+## Requirements
 
 ```txt
 streamlit
@@ -45,7 +46,7 @@ joblib
 numpy
 ```
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -58,7 +59,7 @@ cd ml_emailspam_classification
 streamlit run application_fusion.py
 ```
 
-## 📊 Dataset
+## Dataset
 
 The project uses email datasets with the following structure:
 - **emails2.csv**: Preprocessed email features (3002 columns)
@@ -66,7 +67,7 @@ The project uses email datasets with the following structure:
 - Features include word frequencies and email metadata
 - Binary classification: 0 (Ham) / 1 (Spam)
 
-## 🔧 Project Structure
+## Project Structure
 
 ```
 email-spam-detection/
@@ -82,7 +83,7 @@ email-spam-detection/
 └── README.md                # Project documentation
 ```
 
-## 🧠 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 ### 1. Data Preprocessing
 - Text cleaning and normalization
@@ -107,7 +108,7 @@ models = {
 - Confusion matrices
 - Cross-validation
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 | Algorithm | Accuracy | Precision | Recall | F1-Score |
 |-----------|----------|-----------|--------|----------|
@@ -117,7 +118,7 @@ models = {
 | Random Forest | 95% | 97% | 97% | 97% |
 | Gradient Boosting | 95% | 95% | 95% | 95% |
 
-## 🌐 Web Application Features
+## Web Application Features
 
 ### Main Interface
 - **Email Input**: Text area for email content
@@ -132,7 +133,7 @@ models = {
 - **Word Cloud**: Most common spam/ham words
 - **Distribution Charts**: Data balance visualization
 
-## 🔍 Usage Examples
+## Usage Examples
 
 ### Command Line Prediction
 ```python
@@ -151,7 +152,7 @@ prediction = model.predict(vectorizer.transform([email_text]))
 3. Select desired model
 4. Click "Predict" for classification result
 
-## 🌍 Translation Feature
+## Translation Feature
 
 The system includes automatic translation capabilities:
 
@@ -161,7 +162,7 @@ def translate_dataset(file_path, output_path, text_column, src_lang='en', dest_l
     # Translation logic here
 ```
 
-## 📝 Model Persistence
+## Model Persistence
 
 Trained models are saved using joblib:
 ```python
@@ -173,16 +174,14 @@ joblib.dump(vectorizer, 'models/tfidf_vectorizer.pkl')
 model = joblib.load('models/spam_detector.pkl')
 ```
 
-## 👨‍💻 Author
+## Author
 
-**Your Name**
+**Phu Nguyen Dinh**
 - GitHub: [@phunguyendinh](https://github.com/phunguyendinh)
 - Email: nguyendinhphu200@gmail.com
 
-## 🐛 Known Issues
+## Known Issues
 
 - Translation API rate limits may affect large datasets
 - Some special characters might not be handled properly
 - Model performance may vary with different email formats
-
-⭐ **If you found this project helpful, please give it a star!** ⭐
